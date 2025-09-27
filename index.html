@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Age Calculator</title>
+    <!--Import JS Datepicker-->
+    <link rel="stylesheet" href="datepicker.min.css" />
+
+    <link rel="icon" href="favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <script type="module" src="main.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Age Calculator</h1>
+    </header>
+    <main>
+      <form>
+        <label for="birth-date">Enter your birth date:</label>
+        <input
+          type="date"
+          id="birth-date"
+          name="birth-date"
+          placeholder="01/01/2000"
+          required
+        />
+        <input type="submit" id="calc-button" value="Calculate" />
+        <div id="calculation-result"></div>
+      </form>
+    </main>
+    <footer></footer>
+    <script src="https://unpkg.com/js-datepicker"></script>
+  </body>
+</html>
